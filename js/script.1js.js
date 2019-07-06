@@ -1,3 +1,16 @@
+let money = 10000,
+    income = "Copyrighting",
+    addExpenses = "Dog, Car, Courses",
+    deposit = false,
+    mission = 200000,
+    period = 5,
+    budgetDay = money / 30;
+
+console.log((typeof money, income, deposit));
+console.log(length.income);
+console.log('Earn ' + mission + ' in' period + ' month');
+console.log(budgetDay);
+
 //через if
 
 let lang = ('ru');
@@ -17,7 +30,7 @@ let lang = ('ru');
 switch (lang) {
     case 'ru':
         weekDay = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
-        break;
+
     case 'en':
         weekDay = ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'];
         break;
